@@ -1,0 +1,19 @@
+.title h1 {
+  font-weight: 700;
+}
+p.desc { font-size: 1.2rem;font-weight: 500; }
+
+#weight-guide {
+  text-align: center;
+  margin-top: 30px;
+}
+#weight-guide h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+#results {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 20px;
+}

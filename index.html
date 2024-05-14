@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Switcher JS Project</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mt-4">
+        <div class="title text-center"><h1>Basic BMI Calculator</h1></div>
+      </div>
+      <div class="col-md-6 mx-auto mt-4">
+        <div class="alert alert-danger" role="alert" style="display: none;"></div>
+        <form>
+          <p><label>Height in CM: </label><input type="text" class="form-control" id="height" /></p>
+          <p><label>Weight in KG: </label><input type="text" class="form-control" id="weight" /></p>
+          <button class="btn btn-primary">Calculate</button>
+          <div id="results">Result:</div>
+          <div id="weight-guide">
+            <h3>BMI Weight Guide</h3>
+            <p class="desc text-center">Under Weight = Less than 18.6</p>
+            <p class="desc text-center">Normal Range = 18.6 and 24.9</p>
+            <p class="desc text-center">Overweight = Greater than 24.9</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/script.js"></script>  
+</body>
+</html>
