@@ -8,7 +8,7 @@ form.addEventListener("submit", (e)=> {
   let result = document.querySelector("#results");
   let alertError = document.querySelector(".alert");
 
-  console.log(height,weight);
+  // console.log(height,weight);
 
   if(height === "" || height < 1 || isNaN(height)){
     alertError.style.display = "block";
